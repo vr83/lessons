@@ -1,0 +1,72 @@
+@import url(reset.css);
+
+
+body {
+    background-color: silver;
+}
+
+.header {
+    height: 150px;
+    background-color: black;
+    padding: 20px 0px 0px 0px;
+}
+
+.header > div > a {
+    margin: 0px 0px 0px 50px;
+    font-size: 20px;
+    color: yellow;
+}
+
+.link_scroll {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: red;
+}
+
+.block__text * {
+    color: darkblue;
+}
+
+span {
+    color: rgb(58, 41, 240);
+}
+
+.list {
+    color: brown;
+}
+
+.link {
+    color: green;
+}
+
+.section * {
+    color: deeppink;
+}
+
+.footer {
+    height: 100px;
+    background-color: black;
+}
+
+.footer_dz {
+    padding: 40px 0px 0px 0px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.year {
+    padding: 7px 0px 0px 0px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
