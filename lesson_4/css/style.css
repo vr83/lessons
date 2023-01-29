@@ -1,0 +1,116 @@
+@import url(reset.css);
+
+@font-face {
+    font-family: 'Bukyvede';
+    src: url('../fonts/Bukyvede.woff2') format('woff2'),
+        url('../fonts/Bukyvede.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shango Chiseled';
+    src: url('../fonts/ShangoChiseled.woff2') format('woff2'),
+        url('../fonts/ShangoChiseled.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    background-image: url("../img/background.jpeg");
+}
+
+.header {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+.title {
+    font-family: "Shango Chiseled";
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: rgba(0, 0, 255, 0.892);
+    text-shadow: 2px 2px 5px rgb(245, 240, 240);
+}
+
+.subtitle {
+    font-family: "Bukyvede";
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 10px;
+    color: rgba(255, 20, 145, 0.541);
+}
+
+.text {
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+    font-weight: 400;
+    color: #ffff;
+}
+
+.text_1 {
+    font-size: 20px;
+    text-align: left;
+    text-decoration: line-through;
+    color: #ffff;
+}
+
+.text_2 {
+    text-align: justify;
+    font-size: 25px;
+    line-height: 2;
+    text-decoration: underline;
+    word-spacing: 10px;
+    color: #ffff;
+    font-family: "Shango Chiseled";
+}
+
+.text_3 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: right;
+    text-decoration: overline;
+    line-height: 1.4;
+    color: green;
+}
+
+.text_4 {
+    font-family: "Shango Chiseled";
+    font-size: 22px;
+    text-transform: uppercase;
+    text-indent: 50px;
+    text-align: left;
+    letter-spacing: 5px;
+    color: gold;
+}
+
+.text_5 {
+    font-size: 16px;
+    line-height: 1.5;
+    white-space: nowrap;
+    color: red;
+}
+
+.footer {
+    height: 150px;
+    background-color: #ffff;
+}
+
+.footer_block {
+    padding: 45px 0px 0px 0px;
+    font-family: "Shango Chiseled";
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: blue;
+    text-shadow: 2px 2px 4px rgb(236, 192, 192), -1px -2px 2px rgb(236, 135, 135);
+}
