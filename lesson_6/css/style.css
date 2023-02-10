@@ -1,0 +1,98 @@
+@import url(reset.css);
+
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #6C757D;
+}
+
+[class*="__container"] {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.grand {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.grand__text-block {
+    max-width: 816px;
+    margin: 0 auto 80px;
+}
+
+.grand__text-block p {
+    margin-bottom: 30px;
+    line-height: 1.78;
+}
+
+.grand__title {
+    max-width: 605px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #212529;
+}
+
+.grand__image {
+    max-width: 100%;
+    margin-bottom: 80px;
+}
+
+.images {
+    font-size: 0;
+    margin-bottom: 80px;
+}
+
+.image {
+    max-width: 100%;
+}
+
+.image_1 {
+    margin-right: 30px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button_1 {
+    background-color: rgb(246, 211, 120);
+    display: inline-block;
+    padding: 25px;
+    border-radius: 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.4s;
+    box-shadow: 0px 15px 20px 0px #000;
+    border: 3px solid green;
+}
+    
+.button_1:hover {
+    background-color: rgb(226, 154, 59);
+}
+
+.button_2 {
+    margin-left: 30px;
+    background-color: rgb(246, 211, 120);
+    display: inline-block;
+    padding: 25px;
+    border-radius: 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.4s;
+    box-shadow: 0px 15px 20px 0px #000;
+    border: 3px dotted green;
+}
+
+.button_2:hover {
+    background-color: rgb(226, 154, 59);
+}
